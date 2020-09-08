@@ -1,6 +1,17 @@
 FROM ubuntu:20.04
 
-LABEL maintainer="Konrad Botor (kbotor@gmail.com)"
+ARG BUILD_DATE
+ARG SOURCE_COMMIT
+LABEL maintainer="Konrad Botor (kbotor@gmail.com)" \
+      org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.name="Conda Qiime2" \
+      org.label-schema.description="Docker image containing Conda and Qiime2 usable with Singularity" \
+      org.label-schema.url="https://github.com/Forinil/conda-qiime2" \
+      org.label-schema.vcs-ref=$SOURCE_COMMIT \
+      org.label-schema.vcs-url="https://github.com/Forinil/conda-qiime2" \
+      org.label-schema.vendor="Konrad Botor" \
+      org.label-schema.version="1.0" \
+      org.label-schema.schema-version="1.0"
 
 ENV DEBIAN_FRONTEND=noninteractive
 

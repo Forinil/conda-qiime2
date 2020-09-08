@@ -1,5 +1,8 @@
 # Docker image with Minicnoda and Qiime 2 to be used with Docker or Singularity
 
+[![](https://images.microbadger.com/badges/image/forinil/conda-qiime2.svg)](https://microbadger.com/images/forinil/conda-qiime2 "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/forinil/conda-qiime2.svg)](https://microbadger.com/images/forinil/conda-qiime2 "Get your own version badge on microbadger.com")
+
 ## Singularity
 
 ```shell
