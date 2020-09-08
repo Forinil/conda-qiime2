@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+LABEL maintainer="Konrad Botor (kbotor@gmail.com)"
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
