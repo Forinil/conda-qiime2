@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ)
+BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
 echo Build date: $BUILD_DATE
 echo Commit: $SOURCE_COMMIT
